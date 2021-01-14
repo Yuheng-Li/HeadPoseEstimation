@@ -7,7 +7,7 @@ The main change I made is adding image test script, which is test_on_image.py in
 
 Note that all images should be loosely cropped faces, so if you have a full body human images, then you can not use this model directly. <br />
 
-The script will save a file called result.pkl which is a dict and with four keys: 'file_name', 'yaw', 'pitch', 'roll'<br />
+The script will save a file called result.pkl which is a dict with four keys: 'file_name', 'yaw', 'pitch', 'roll'<br />
 Something like this:<br />
 { <br />
 'file_name':[ 'image1.png',  'image2.png', ....  ]<br />
